@@ -1,0 +1,131 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background: #F0F0F0;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+#mynav ul {
+    margin: 0% auto;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+#home img[alt="dog image"] {
+    position: relative;
+    left: 16.82%;
+    top: 5%;
+    width: 44.75%;
+}
+
+#home img[alt="ellipse 2"] {
+    position: absolute;
+    left: 48.63%;
+    /* top: 22%; */
+    bottom: -2%;
+    width: 50.16%;
+}
+
+#home img[alt="ellipse 1"] {
+    position: absolute;
+    left: 29.6%;
+    top: -16%;
+    width: 31.16%;
+    z-index: -1;
+}
+
+.home-des {
+    position: absolute;
+    bottom: 30%;
+    left: 4%;
+    width: 35%;
+    text-align: left;
+}
+
+.home-des p {
+    font-family: 'Rubik', sans-serif;
+}
+
+.home-des button {
+    background-color: #F2968F;
+    box-shadow: 1px 0px 5px black;
+    padding: 2% 16%;
+}
+
+.home-des button:hover {
+    background-color: #f2827a;
+
+}
+
+
+
+
+
+/* media queries */
+
+/* -----none------------ */
+@media (max-width:576px) {
+    #mynav ul {
+        font-size: .7rem !important;
+        width: 30%;
+        text-align: left;
+        margin: 0;
+        padding: 2% 0;
+    }
+
+    #mynav li:nth-child(2n) {
+        display: none;
+    }
+
+    .home-des {
+        bottom: 8%;
+    }
+
+    .home-des p {
+        font-size: 1rem !important;
+    }
+
+
+}
+
+/* ------sm--------- */
+@media (min-width:576px) and (max-width:768px) {
+    #mynav ul {
+        font-size: 1rem !important;
+        width: 30%;
+        text-align: left;
+        margin: 0;
+        padding: 2% 0;
+    }
+
+    #mynav li:nth-child(2n) {
+        display: none;
+    }
+
+    .home-des {
+        bottom: 8%;
+    }
+
+    .home-des p {
+        font-size: 1rem !important;
+    }
+
+
+
+}
+
+/* -------md--------- */
+@media (min-width:768px) and (max-width:992px) {
+
+}
+
+/* -------lg------ */
+@media (min-width:992px) and (max-width:1200px) {}
+
+/* -------xl----- */
+@media (min-width:1200px) and (max-width:1400px) {}
