@@ -5,6 +5,7 @@ body {
     background: #F0F0F0;
 }
 
+
 .navbar-toggler:focus {
     box-shadow: none;
 }
@@ -26,7 +27,6 @@ body {
 #home img[alt="ellipse 2"] {
     position: absolute;
     left: 48.63%;
-    /* top: 22%; */
     bottom: -2%;
     width: 50.16%;
 }
@@ -62,70 +62,141 @@ body {
 
 }
 
+.about {
+    position: absolute;
+    background-color: white;
+    background-image: url(../images/Union.png);
+    width: 100%;
+   top: 94%;
+   left: 0%;
+}
+.about-us{
+    position: relative;
+}
 
+.about img[alt="ellipse 3"] {
+    position: relative;
+    margin: 4% 0%;
+    left: -25%;
+    width: 27.12%;
+}
 
-
-
-/* media queries */
-
-/* -----none------------ */
-@media (max-width:576px) {
-    #mynav ul {
-        font-size: .7rem !important;
-        width: 30%;
-        text-align: left;
-        margin: 0;
-        padding: 2% 0;
-    }
-
-    #mynav li:nth-child(2n) {
-        display: none;
-    }
-
-    .home-des {
-        bottom: 8%;
-    }
-
-    .home-des p {
-        font-size: 1rem !important;
-    }
-
+.about img[alt="dog image2"] {
+    position: absolute;
+    top: 16%;
+    left: 17.5%;
+    width: 15.95%;
 
 }
 
-/* ------sm--------- */
-@media (min-width:576px) and (max-width:768px) {
-    #mynav ul {
-        font-size: 1rem !important;
-        width: 30%;
-        text-align: left;
-        margin: 0;
-        padding: 2% 0;
-    }
-
-    #mynav li:nth-child(2n) {
-        display: none;
-    }
-
-    .home-des {
-        bottom: 8%;
-    }
-
-    .home-des p {
-        font-size: 1rem !important;
-    }
-
-
-
+.about-us > p {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 600;
+    margin: 0;
+    position: absolute;
+    left: 40%;
+    top: 38%;
+    text-transform: uppercase;
+}
+.about-us > div{
+    position: absolute;
+    left: 17%;
+    top: 56%;
+    background-color: #DEC1E9;
+    width: 65%;
+    padding: 1% 4% 1% 1%;
+    text-align: left;
+    box-shadow: 6px 2px 4px rgba(0, 0, 0, 0.25);
+}
+.about-us > div > p{
+    margin: 0;
+  padding-left: 26%;  
+  font-size: 1.2rem; 
+  font-family: 'Rubik', sans-serif;
 }
 
-/* -------md--------- */
-@media (min-width:768px) and (max-width:992px) {
 
-}
 
-/* -------lg------ */
-@media (min-width:992px) and (max-width:1200px) {}
 
-/* -------xl----- */
-@media (min-width:1200px) and (max-width:1400px) {}
+
+
+    /* -----------about section ----------------- */
+
+
+
+
+
+
+    /* media queries */
+
+    /* -----none------------ */
+    @media (max-width:576px) {
+        #mynav ul {
+            font-size: .7rem !important;
+            width: 30%;
+            text-align: left;
+            margin: 0;
+            padding: 2% 0;
+        }
+
+        #mynav li:nth-child(2n) {
+            display: none;
+        }
+
+        .home-des {
+            bottom: 8%;
+        }
+
+        .home-des p {
+            font-size: 1rem !important;
+        }
+        .about-us > p{
+            font-size: 0.9rem !important;
+            }
+        .about-us > div > p{
+            font-size: .68rem;
+        }
+
+
+    }
+
+    /* ------sm--------- */
+    @media (min-width:576px) and (max-width:768px) {
+        #mynav ul {
+            font-size: 1rem !important;
+            width: 30%;
+            text-align: left;
+            margin: 0;
+            padding: 2% 0;
+        }
+
+        #mynav li:nth-child(2n) {
+            display: none;
+        }
+
+        .home-des {
+            bottom: 8%;
+        }
+
+        .home-des p {
+            font-size: 1rem !important;
+        }
+
+        .about-us > p{
+        font-size: 1.4rem !important;
+        }
+
+        .about-us > div > p{
+            font-size: .8rem;
+        }
+      
+    }
+
+    /* -------md--------- */
+    @media (min-width:768px) and (max-width:992px) {}
+
+    /* -------lg------ */
+    @media (min-width:992px) and (max-width:1200px) {}
+
+    /* -------xl----- */
+    @media (min-width:1200px) and (max-width:1400px) {}
