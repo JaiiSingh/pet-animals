@@ -62,15 +62,18 @@ body {
 
 }
 
+/* ---------👇👇👇👇👇 new changes */
+
 .about {
     position: absolute;
     background-color: white;
     background-image: url(../images/Union.png);
     width: 100%;
-   top: 94%;
-   left: 0%;
+    top: 94%;
+    left: 0%;
 }
-.about-us{
+
+.about-us {
     position: relative;
 }
 
@@ -89,7 +92,7 @@ body {
 
 }
 
-.about-us > p {
+.about-us>p {
     font-family: 'Rubik', sans-serif;
     font-weight: 600;
     margin: 0;
@@ -98,7 +101,8 @@ body {
     top: 38%;
     text-transform: uppercase;
 }
-.about-us > div{
+
+.about-us>div {
     position: absolute;
     left: 17%;
     top: 56%;
@@ -108,11 +112,175 @@ body {
     text-align: left;
     box-shadow: 6px 2px 4px rgba(0, 0, 0, 0.25);
 }
-.about-us > div > p{
+
+.about-us>div>p {
     margin: 0;
-  padding-left: 26%;  
-  font-size: 1.2rem; 
-  font-family: 'Rubik', sans-serif;
+    padding-left: 26%;
+    font-size: 1.2rem;
+    font-family: 'Rubik', sans-serif;
+}
+
+
+/* -----------about section ----------------- */
+.b2-div {
+    box-sizing: border-box;
+    margin-top: 250px;
+    /* padding-top: 13.9%; */
+    padding-top: 250px;
+    background-color: #E27971;
+}
+
+.b2-img-div {
+    position: relative;
+    padding-left: 10%;
+}
+
+.b2-img-div img[alt="boy and dog"] {
+    width: 80%;
+}
+
+.b2-img-div img[alt="ellipse 4"] {
+    position: absolute;
+    left: 16%;
+    width: 20%;
+}
+
+.b2-img-div img[alt="1"] {
+    position: absolute;
+    left: 21%;
+    top: 4%;
+    width: 6%;
+}
+
+.b2-des {
+    position: relative;
+    padding: 10% 4%;
+    text-align: left;
+}
+
+.b2-des h2 {
+    text-transform: uppercase;
+    font-family: 'Rubik', sans-serif;
+}
+
+.b2-des p {
+    font-family: 'Rubik', sans-serif;
+}
+
+
+
+/* media queries */
+
+/* -----none------------ */
+@media (max-width:576px) {
+    #mynav ul {
+        font-size: .7rem !important;
+        width: 30%;
+        text-align: left;
+        margin: 0;
+        padding: 2% 0;
+    }
+
+    #mynav li:nth-child(2n) {
+        display: none;
+    }
+
+    .home-des {
+        bottom: 8%;
+    }
+
+    .home-des p {
+        font-size: 1rem !important;
+    }
+
+    .about-us>p {
+        font-size: 0.9rem !important;
+    }
+
+    .about-us>div>p {
+        font-size: .68rem;
+    }
+
+     /* ------👇👇👇👇👇👇 new changes---- */
+     .b2-div{
+        margin-top: 50px;
+        padding-top: 25%;
+    }
+    .b2-img-div{
+        padding: 0;
+        width: 50%;
+        margin: 0% auto;
+    }
+    .b2-des{
+        text-align: center;
+        width: 80%;
+        margin: 0% auto;
+    }
+    .b2-des h2{
+        font-size: 1.5rem !important;
+    }
+    .b2-des p{
+        font-size: 0.9rem !important;
+    }
+
+
+}
+
+/* ------sm--------- */
+@media (min-width:576px) and (max-width:768px) {
+    #mynav ul {
+        font-size: 1rem !important;
+        width: 30%;
+        text-align: left;
+        margin: 0;
+        padding: 2% 0;
+    }
+
+    #mynav li:nth-child(2n) {
+        display: none;
+    }
+
+    .home-des {
+        bottom: 8%;
+    }
+
+    .home-des p {
+        font-size: 1rem !important;
+    }
+
+    .about-us>p {
+        font-size: 1.4rem !important;
+    }
+
+    .about-us>div>p {
+        font-size: .8rem;
+    }
+
+    /* ------👇👇👇👇👇👇 new changes---- */
+    .b2-div{
+        margin-top: 100px;
+        padding-top: 180px;
+    }
+    .b2-img-div{
+        padding: 0;
+        width: 50%;
+        margin: 0% auto;
+    }
+    .b2-des{
+        text-align: center;
+        width: 80%;
+        margin: 0% auto;
+    }
+    .b2-des h2{
+        font-size: 1.8rem !important;
+    }
+    .b2-des p{
+        font-size: 1.2rem !important;
+    }
+
+
+
+
 }
 
 
@@ -120,83 +288,54 @@ body {
 
 
 
-    /* -----------about section ----------------- */
+/* -------md--------- */
+@media (min-width:768px) and (max-width:992px) {
 
-
-
-
-
-
-    /* media queries */
-
-    /* -----none------------ */
-    @media (max-width:576px) {
-        #mynav ul {
-            font-size: .7rem !important;
-            width: 30%;
-            text-align: left;
-            margin: 0;
-            padding: 2% 0;
-        }
-
-        #mynav li:nth-child(2n) {
-            display: none;
-        }
-
-        .home-des {
-            bottom: 8%;
-        }
-
-        .home-des p {
-            font-size: 1rem !important;
-        }
-        .about-us > p{
-            font-size: 0.9rem !important;
-            }
-        .about-us > div > p{
-            font-size: .68rem;
-        }
-
-
+    /* ------👇👇👇👇👇👇 new changes---- */
+    .b2-div {
+        margin-top: 170px;
+        padding-top: 160px;
     }
 
-    /* ------sm--------- */
-    @media (min-width:576px) and (max-width:768px) {
-        #mynav ul {
-            font-size: 1rem !important;
-            width: 30%;
-            text-align: left;
-            margin: 0;
-            padding: 2% 0;
-        }
-
-        #mynav li:nth-child(2n) {
-            display: none;
-        }
-
-        .home-des {
-            bottom: 8%;
-        }
-
-        .home-des p {
-            font-size: 1rem !important;
-        }
-
-        .about-us > p{
-        font-size: 1.4rem !important;
-        }
-
-        .about-us > div > p{
-            font-size: .8rem;
-        }
-      
+    .b2-des {
+        padding-top: 6.8%;
     }
 
-    /* -------md--------- */
-    @media (min-width:768px) and (max-width:992px) {}
+    .b2-des h2 {
+        font-size: 1.3rem !important;
+    }
 
-    /* -------lg------ */
-    @media (min-width:992px) and (max-width:1200px) {}
+    .b2-des p {
+        font-size: 1rem !important;
+    }
+}
 
-    /* -------xl----- */
-    @media (min-width:1200px) and (max-width:1400px) {}
+/* -------lg------ */
+@media (min-width:992px) and (max-width:1200px) {
+    /* ------👇👇👇👇👇👇 new changes---- */
+
+    .b2-div {
+        padding-top: 150px;
+    }
+
+    .b2-des h2 {
+        font-size: 1.5rem !important;
+    }
+
+    .b2-des p {
+        font-size: 1.1rem !important;
+    }
+}
+
+/* -------xl----- */
+@media (min-width:1200px) and (max-width:1400px) {
+    /* ------👇👇👇👇👇👇 new changes---- */
+
+    .b2-des h2 {
+        font-size: 1.8rem !important;
+    }
+
+    .b2-des p {
+        font-size: 1.3rem !important;
+    }
+}
