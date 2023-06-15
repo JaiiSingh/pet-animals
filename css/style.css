@@ -71,6 +71,8 @@ body {
     width: 100%;
     top: 94%;
     left: 0%;
+    border-top: 4px solid #F2968F;
+    box-shadow: 0px -2px 10px black;
 }
 
 .about-us {
