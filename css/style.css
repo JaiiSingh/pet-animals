@@ -228,8 +228,9 @@ body {
 }
 
 .b5 {
+    position: relative;
     background-image: url(../images/Union.png);
-    border-top: 3px solid #F2968F;
+    border-top: 4px solid #F2968F;
     box-shadow: 0px -1px 6px black;
 }
 
@@ -240,26 +241,26 @@ body {
 
 .b5-div img[alt="ellipse"] {
     position: relative;
-    width: 35%;
-    right: 30%;
+    width: 29%;
+    right: 26%;
 }
 
 .b5-div img[alt="dog"] {
     position: absolute;
-    top: 27%;
-    left: 7%;
-    width: 25%;
+    top: 31%;
+    left: 14%;
+    width: 20%;
 }
 
 .b5-div>div {
     background-color: #DEC1E9;
-    width: 85%;
+    width: 76%;
     position: absolute;
     top: 76%;
-    left: 10%;
+    left: 14%;
     text-align: left;
     padding: 1% 2% 1% 25%;
-
+    box-shadow: 6px 2px 4px rgba(0, 0, 0, 0.25);
 }
 
 .b5-div div>p {
@@ -323,6 +324,119 @@ body {
     text-align: left;
     padding-left: 1%;
     opacity: 90%;
+}
+
+
+/* 👇👇👇👇👇👇👇 new changes day 4  */
+
+.b5-div img[alt="ellipse 2"] {
+    position: absolute;
+    width: 28%;
+    bottom: -30%;
+    z-index: -1;
+}
+
+.b5 img[alt="ellipse 1"] {
+    position: absolute;
+    width: 30%;
+    top: 56%;
+    left: 42%;
+    z-index: -1;
+}
+
+.b5>img[alt="ellipse 2"] {
+    position: absolute;
+    bottom: 1%;
+    left: 64%;
+    width: 12%;
+    z-index: -1;
+}
+
+#banner6 img[alt="ellipse 1"] {
+    position: absolute;
+    top: 0%;
+   left: 60%;
+}
+
+#banner6 img[alt="ellipse 2"] {
+    position: absolute;
+    width: 30%;
+    top: 20%;
+    left: 1%;
+}
+
+#banner6 img[alt="ellipse 3"] {
+    position: absolute;
+    width: 17%;
+    left: 82%;
+    bottom: 18%;
+    z-index: -1;
+    opacity: 60%;
+}
+.b7{
+    position: relative;
+    border-top: 4px solid #F2968F;
+    box-shadow: 0px -1px 6px black;
+    padding: 0;
+}
+.b7 div[class="rounded-pill"]{
+   padding-left: 20%;
+   top: 72%;
+}
+.b7>.b5-div>p{
+    left: 41%;
+    bottom: 31%;
+}
+.b7 div[class="rounded-pill"]>p{
+    width: 95%;
+}
+
+.contact-form{
+    width: 30%;
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+}
+.contact-form button{
+    background-color: #F2968F;
+    border-radius: 0%;
+    color: white;
+}
+.contact-form button:hover{
+    background-color: #E27971;
+    color: white;
+}
+.contact-form input:focus{
+border-color: #F2968F;
+box-shadow: 0px 0px 8px #F2968F;
+}
+.footer-div{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    background-color: #BF5E57;
+    margin-top: 40%;
+    padding: 2% 2%;
+}
+.footer-div p{
+    color: rgb(222, 214, 214);
+    margin: 0;
+    font-family: 'Rubik',sans-serif;
+}
+
+.b7 img[alt="ellipse 1"]{
+    position: absolute;
+    width: 29%;
+    top: 34%;
+    right: 3%;
+    z-index: -1;
+}
+.b7 img[alt="ellipse 2"]{
+    position: absolute;
+    width: 25%;
+    bottom: 2%;
+    right: 31%;
+    z-index: -1;
 }
 
 
@@ -440,6 +554,15 @@ body {
         font-size: 0.7rem;
     }
 
+
+    /* 👇👇👇👇👇👇👇 new changes day 4  */
+
+
+
+
+
+
+
 }
 
 /* ------sm--------- */
@@ -552,12 +675,27 @@ body {
         font-size: 1rem;
     }
 
+    /* 👇👇👇👇👇👇👇 new changes day 4  */
+    .contact-form label{
+        font-size: 0.8rem !important;
+    }
+    .contact-form input{
+        padding: 0% 2%;
+        font-size: 0.8rem;
+    }
+    .contact-form button{
+        padding: 1% 3%;
+        font-size: 0.8rem ;
+    }
+    .footer-div{
+        margin-top: 45%;
+    }
+    .footer-div p{
+        font-size: 0.7rem !important;
+    }
+
 
 }
-
-
-
-
 
 
 /* -------md--------- */
@@ -597,6 +735,14 @@ body {
         font-size: 1.2rem;
     }
 
+    /* 👇👇👇👇👇👇👇 new changes day 4  */
+    .footer-div{
+        margin-top: 50%;
+    }
+    .footer-div p{
+        font-size: 0.8rem !important;
+    }
+
 
 
 }
@@ -632,8 +778,10 @@ body {
         font-size: 1.2rem;
     }
 
-
-
+    /* 👇👇👇👇👇👇👇 new changes day 4  */
+    .footer-div p{
+        font-size: 1rem !important;
+    }
 
 }
 
@@ -664,7 +812,11 @@ body {
         font-size: 1.4rem;
     }
 
+    /* 👇👇👇👇👇👇👇 new changes day 4  */
 
+    .footer-div p{
+        font-size: 1.2rem !important;
+    }
 
 
 }
