@@ -230,8 +230,9 @@ body {
 .b5 {
     position: relative;
     background-image: url(../images/Union.png);
-    border-top: 4px solid #F2968F;
-    box-shadow: 0px -1px 6px black;
+    border-top: 5px solid #F2968F;
+    border-bottom: none;
+    box-shadow: 0px -2px 6px black;
 }
 
 .b5-div {
@@ -355,7 +356,7 @@ body {
 #banner6 img[alt="ellipse 1"] {
     position: absolute;
     top: 0%;
-   left: 60%;
+    left: 60%;
 }
 
 #banner6 img[alt="ellipse 2"] {
@@ -373,72 +374,6 @@ body {
     z-index: -1;
     opacity: 60%;
 }
-.b7{
-    position: relative;
-    border-top: 4px solid #F2968F;
-    box-shadow: 0px -1px 6px black;
-    padding: 0;
-}
-.b7 div[class="rounded-pill"]{
-   padding-left: 20%;
-   top: 72%;
-}
-.b7>.b5-div>p{
-    left: 41%;
-    bottom: 31%;
-}
-.b7 div[class="rounded-pill"]>p{
-    width: 95%;
-}
-
-.contact-form{
-    width: 30%;
-    position: absolute;
-    bottom: 10%;
-    left: 10%;
-}
-.contact-form button{
-    background-color: #F2968F;
-    border-radius: 0%;
-    color: white;
-}
-.contact-form button:hover{
-    background-color: #E27971;
-    color: white;
-}
-.contact-form input:focus{
-border-color: #F2968F;
-box-shadow: 0px 0px 8px #F2968F;
-}
-.footer-div{
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-    background-color: #BF5E57;
-    margin-top: 40%;
-    padding: 2% 2%;
-}
-.footer-div p{
-    color: rgb(222, 214, 214);
-    margin: 0;
-    font-family: 'Rubik',sans-serif;
-}
-
-.b7 img[alt="ellipse 1"]{
-    position: absolute;
-    width: 29%;
-    top: 34%;
-    right: 3%;
-    z-index: -1;
-}
-.b7 img[alt="ellipse 2"]{
-    position: absolute;
-    width: 25%;
-    bottom: 2%;
-    right: 31%;
-    z-index: -1;
-}
-
 
 
 /* media queries */
@@ -557,12 +492,6 @@ box-shadow: 0px 0px 8px #F2968F;
 
     /* 👇👇👇👇👇👇👇 new changes day 4  */
 
-
-
-
-
-
-
 }
 
 /* ------sm--------- */
@@ -676,24 +605,7 @@ box-shadow: 0px 0px 8px #F2968F;
     }
 
     /* 👇👇👇👇👇👇👇 new changes day 4  */
-    .contact-form label{
-        font-size: 0.8rem !important;
-    }
-    .contact-form input{
-        padding: 0% 2%;
-        font-size: 0.8rem;
-    }
-    .contact-form button{
-        padding: 1% 3%;
-        font-size: 0.8rem ;
-    }
-    .footer-div{
-        margin-top: 45%;
-    }
-    .footer-div p{
-        font-size: 0.7rem !important;
-    }
-
+   
 
 }
 
@@ -736,14 +648,7 @@ box-shadow: 0px 0px 8px #F2968F;
     }
 
     /* 👇👇👇👇👇👇👇 new changes day 4  */
-    .footer-div{
-        margin-top: 50%;
-    }
-    .footer-div p{
-        font-size: 0.8rem !important;
-    }
-
-
+   
 
 }
 
@@ -779,10 +684,7 @@ box-shadow: 0px 0px 8px #F2968F;
     }
 
     /* 👇👇👇👇👇👇👇 new changes day 4  */
-    .footer-div p{
-        font-size: 1rem !important;
-    }
-
+   
 }
 
 /* -------xl----- */
@@ -814,9 +716,5 @@ box-shadow: 0px 0px 8px #F2968F;
 
     /* 👇👇👇👇👇👇👇 new changes day 4  */
 
-    .footer-div p{
-        font-size: 1.2rem !important;
-    }
-
-
+   
 }
